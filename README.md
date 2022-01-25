@@ -24,15 +24,27 @@ Once the significant predictors were identified, a statistical model was crafted
 
 # Understanding model implications
 Based on the final model's summary table following are the business insights for the impact of predictors on IMDb score.
+
 ● Based on the dataset provided, we have taken the frequency identical to each actor, producer and director name to their respective experiences within the scope of the dataset:
+      
       ○ For choice of actors, keeping all the other predictors the same, we would prefer Johnny Depp and Tom Hanks over Bruce Willis in order to obtain a higher IMDb score. Similarly, the following would be the preference of actors in order of their impact on IMDb score: Tom Hanks, Johnny Depp, Bruce Willis, Denzel Washington, Robert de Niro, Nicolas Cage.
+      
       ○ The following would be the preference of directors in order of their impact on IMDb score:Woody Allen, John Carpenter, Steven Spielberg, Robert Zemeckis, Martin Scorsese, Albert Hitchcock, Clint Eastwood, Brian De Palma.
+      
       ○ The following would be the preference of producers in order of their impact on IMDb score: Scott Rudin, Tim Bevan, Jerry Bruckheimer, Joel Silver, Arnon Milchan, Brian Grazer.
+      
 ● Compared to France, movies produced in Germany and the UK have a higher IMDB score, keeping all other predictors the same. Similarly, compared to France, movies produced in France have a higher IMDb score than those produced in the US and other countries.
+
 ● Movies released during the festive/winter season i.e. from Sep-Dec have a higher IMDb score compared to the rest of the months.
+
 ● Based on the coefficient values for the main actor’s gender, the IMDb score shows a positive trend if all the main actors are male i.e. a movie with a higher number of male main actors would have a higher IMDb score.
+
 ● Movies with two directors have a higher IMDb score as compared to movies directed by a single director by 0.329. Similarly, Movies with three or more directors have a lower IMDb score than movies directed with a single director by 0.098.
+
 ● Higher the number of languages in which a movie is released, the higher is its IMDb score.
+
 ● Keeping other predictors constant, the IMDb score decreases by 0.012 with every subsequent year.
+
 ● For Drama genre movies, the IMDb score decreases by 0.48 with a unit(hour) increase in the duration of the movie.
+
 ● For animation genre movies, if the movie also comes under the fantasy genre its IMDB score would be lesser than the one not in the fantasy genre by 0.386.
